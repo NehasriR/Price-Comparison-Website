@@ -11,16 +11,16 @@ It scrapes product data from different shopping websites, analyzes the prices, a
 7) Email notification support for price alerts
 8) Selenium-based automated web scraping
 # Tech-Stack
-'''
+<pre>
 1) Python   - Core Programming language
 2) Flask    - Web framework
 3) Selenium - Web scraping automation
 4) Regex    - Price parsing
 5) Colorama - Terminal text formatting
 6) Colorlog - Logging and debugging
-'''
+</pre>
 # Workflow
-'''
+<pre>
 User opens the website
         ↓
 User enters the product name
@@ -36,7 +36,7 @@ Price comparison engine identifies the lowest price
 Results are displayed to the user 
         ↓
 An optional email notification is sent for the price drops
-'''
+</pre>
 # Acknowledgement
 This project was developed for academic and learning purposes.
 <br>
