@@ -1,5 +1,5 @@
 # Price-Comparison-Website
-It is a web-based price comparison application that helps users compare product prices across multiple e-commerce platforms in one place. 
+It is a web-based price comparison application that helps users compare product prices across multiple e-commerce platforms in one place.<br> 
 It scrapes product data from different shopping websites, analyzes the prices, and displays the best available deal to the user.
 # Features
 1) Search products across multiple e-commerce websites
@@ -35,9 +35,13 @@ Results are displayed to the user
 An optional email notification is sent for the price drops
 # Acknowledgement
 This project was developed for academic and learning purposes.
+<br>
 Special thanks to:
+<br>
 https://github.com/Rambabu-Akkapolu
+<br>
 Some parts of the implementation and project inspiration were referenced from the ShopSense project.
 The original contributor's work helped in understanding the project architecture, scraping workflow, and Flask integration.
+<br>
 I sincerely thank the original developer.
  
