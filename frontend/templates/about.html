@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About - PRICE COMPARISON WEBSITE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 56px 0 28px;
+            background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),
+                        url("{{ url_for('static', filename='bbb.jpg') }}") center center / cover no-repeat fixed;
+            font-family: 'Roboto Slab', serif;
+        }
+        .top-nav {
+            position: fixed;
+            top: 14px;
+            right: 18px;
+            z-index: 1000;
+            display: flex;
+            gap: 14px;
+            background: rgba(255, 255, 255, 0.28);
+            border: 1px solid rgba(255, 255, 255, 0.45);
+            border-radius: 999px;
+            padding: 8px 14px;
+            backdrop-filter: blur(6px);
+        }
+        .top-nav a {
+            color: #ffffff;
+            font-size: 0.95rem;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .top-nav a:hover {
+            text-decoration: underline;
+        }
+        .top-logo {
+            position: fixed;
+            top: 10px;
+            left: 14px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.28);
+            border: 1px solid rgba(255, 255, 255, 0.45);
+            border-radius: 10px;
+            padding: 4px 8px;
+            backdrop-filter: blur(6px);
+            display: flex;
+            align-items: center;
+        }
+        .top-logo img {
+            height: 38px;
+            width: auto;
+            display: block;
+            border-radius: 6px;
+        }
+        .about-card {
+            width: 100%;
+            max-width: 780px;
+            background: rgba(255, 255, 255, 0.74);
+            border: 1px solid rgba(255, 255, 255, 0.52);
+            backdrop-filter: blur(7px);
+            border-radius: 10px;
+            padding: 24px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #1f1f1f;
+        }
+        .about-card h1 {
+            margin-bottom: 16px;
+        }
+        .about-card h4 {
+            margin-top: 18px;
+            margin-bottom: 8px;
+        }
+        .about-card p {
+            line-height: 1.6;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-logo">
+        <a href="/"><img src="{{ url_for('static', filename='logo.jpg') }}" alt="Logo"></a>
+    </div>
+    <div class="top-nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </div>
+
+    <div class="about-card">
+        <h1>About</h1>
+
+        <h4>Our Mission</h4>
+        <p>At our website, we believe you should not have to overpay for the things you love. Our mission is simple: to bring transparency to online shopping by providing a fast, unbiased, and comprehensive price comparison tool that puts the power back in your hands.</p>
+
+        <h4>Why Shop With Us?</h4>
+        <p>In a world of fluctuating prices and endless tabs, finding the best deal can feel like a full-time job. We do the heavy lifting for you. Our platform scans thousands of retailers in real-time to ensure you see the most accurate prices, shipping costs, and availability - all in one place.</p>
+    </div>
+</body>
+</html>
