@@ -1,4 +1,4 @@
-# Price-Comparison-Website
+# Price Comparison Website
 It is a web-based price comparison application that helps users compare product prices across multiple e-commerce platforms in one place.<br> 
 It scrapes product data from different shopping websites, analyzes the prices, and displays the best available deal to the user.
 # Features
@@ -11,28 +11,32 @@ It scrapes product data from different shopping websites, analyzes the prices, a
 7) Email notification support for price alerts
 8) Selenium-based automated web scraping
 # Tech-Stack
+'''text
 1) Python   - Core Programming language
 2) Flask    - Web framework
 3) Selenium - Web scraping automation
 4) Regex    - Price parsing
 5) Colorama - Terminal text formatting
 6) Colorlog - Logging and debugging
+'''
 # Workflow
+'''text
 User opens the website
-        |
+        ↓
 User enters the product name
-        |
+        ↓
 Flask receives the search request
-        |
+        ↓
 Selenium scrapes data from e-commerce websites
-        |
+        ↓
 Product prices are extracted and cleared 
-        |
+        ↓
 Price comparison engine identifies the lowest price
-        |
+        ↓
 Results are displayed to the user 
-        |
+        ↓
 An optional email notification is sent for the price drops
+'''
 # Acknowledgement
 This project was developed for academic and learning purposes.
 <br>
