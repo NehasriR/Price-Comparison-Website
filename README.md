@@ -11,7 +11,7 @@ It scrapes product data from different shopping websites, analyzes the prices, a
 7) Email notification support for price alerts
 8) Selenium-based automated web scraping
 # Tech-Stack
-'''text
+'''
 1) Python   - Core Programming language
 2) Flask    - Web framework
 3) Selenium - Web scraping automation
@@ -20,7 +20,7 @@ It scrapes product data from different shopping websites, analyzes the prices, a
 6) Colorlog - Logging and debugging
 '''
 # Workflow
-'''text
+'''
 User opens the website
         ↓
 User enters the product name
